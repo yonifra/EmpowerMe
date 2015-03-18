@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="android:actionBarStyle">@style/thin_ab_style</item>-->
+        <!--<item name="android:textColor">#fff93893</item>-->
+    <!--</style>-->
+
+    <style name="UiTestTextView">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine</item>
+    </style>
+
+    <!-- ActionBar style -->
+    <style name="ActionBar.Solid.Sunshine" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/actionBarBackgroundColor</item>
+    </style>
+
+    <!-- Main activity theme -->
+    <style name="MainActivityTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Sunshine.NoTitle</item>
+    </style>
+
+    <!-- Main activity action bar style -->
+    <style name="ActionBar.Solid.Sunshine.NoTitle" parent="@style/ActionBar.Solid.Sunshine">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/empower_me_action_bar_light</item>
+    </style>
+
+    <color name="actionBarBackgroundColor">#ff3f3b4e</color>
+</resources>

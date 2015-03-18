@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EmpowerMe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empowerment">Empowerment</string>
+
+    <string-array name="empowerments">
+        <item>You are beautiful</item>
+        <item>You are powerful</item>
+        <item>Nothing can stop you</item>
+        <item>You\'re absolutely amazing!</item>
+        <item>The only thing stopping you is you</item>
+        <item>You can do this</item>
+        <item>Nothing is impossible</item>
+        <item>Your success is coming!</item>
+        <item>Keep up the good work</item>
+        <item>Don\'t let anything get you down</item>
+        <item>It\'s just one of those days</item>
+        <item>Keep it up!</item>
+    </string-array>
+</resources>
